@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+body{
+	font-family:Helveticar;
+	margin:0;
+	background-image:url("https://c0.wallpaperflare.com/preview/946/377/129/indian-flag-tricolor-india-flag.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin-bottom:30px;
+}
+
+nav{
+	background-color:orange;
+	font-size:35px;
+	color:white;
+	display:flex;
+	justify-content:right;
+	padding-top:20px;
+	padding-bottom:20px;
+	}
+
+nav a{
+	color:white;
+	padding-left:20px;
+	padding-right:20px;
+	}
+
+nav a:hover{
+	color:black;
+}
+
+.form-container{
+	opacity:0.8;
+	background-color:#FDFDBD;
+	font-size:30px;
+	width:50%;
+	display:flex;
+	justify-content:center;
+	margin-left:47%;
+	margin-top:8%;
+	border-radius:20px;
+	padding-bottom:30px;
+	}
+	
+.form-container input,button,textarea,select{
+	width:70%;
+	height:40px;
+	margin-top:25px;
+	margin-bottom:25px;
+	font-size:25px;
+	text-align:center;
+	border-radius:20px;
+	background-color:#332FD0;
+	margin-left:20%;
+	
+}
+
+.form-container label{
+	margin-left:40%;
+}
+
+.form-container button{
+	height:50px;
+	cursor:pointer;
+}
+
+.form-container a{
+	margin-left:48%;
+	color:black;
+	
+}
+
+.form-container a:hover{
+	color:#009EFF;
+}
+.welcome-form{
+	padding-top:48%;
+	padding-bottom:20px;
+}
+
+.about{
+	font-family:Helveticar;
+	font-size:35px;
+	width:100vx;
+	height:80vh;
+	padding-left:30px;
+	opacity:0.8;
+	background-color:#FEFCF3;
+}
+.about p{
+	padding-top:40px;
+	font-weight:bold;
+}
+
+.checkTable{
+	background-color:#FFF7E9;
+	height:90vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:30px;
+	
+	
+	
+}
+
+.checkTable img{
+	height:100px;
+	width:100px;
+}
+
+.checkTable td,th{
+	padding:10px 60px;
+}
+
